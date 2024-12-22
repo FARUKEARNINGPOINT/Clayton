@@ -614,10 +614,10 @@ async function wait(seconds) {
 }
 
 async function main() {
-  console.log(colors.yellow("(HACK NAME: CLAYTON PRO)"));
-  console.log(colors.yellow("(CREATE BY: FEP)"));
-  console.log(colors.yellow("(TELEGRAM CHNNEL: https://t.me/FarukEarningPoint)"));
-  console.log(colors.yellow(" (YOUTUBE CHNNEL: @FARUK EARNING POINT FEP)"));               
+  console.log(colors.green("(HACK NAME: CLAYTON PRO)"));
+  console.log(colors.green("(CREATE BY: FEP)"));
+  console.log(colors.green("(TELEGRAM CHNNEL: https://t.me/FarukEarningPoint)"));
+  console.log(colors.green("(YOUTUBE CHNNEL: @FARUK EARNING POINT FEP)"));               
   const dataFile = path.join(__dirname, "data.txt");
   const data = fs.readFileSync(dataFile, "utf8").replace(/\r/g, "").split("\n").filter(Boolean);
   const waitTime = settings.TIME_SLEEP * 60 * 60;
