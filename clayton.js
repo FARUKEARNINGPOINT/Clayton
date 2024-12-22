@@ -614,15 +614,7 @@ async function wait(seconds) {
 }
 
 async function main() {
-  console.log(colors.yellow("(
-$$$$$$$$\ $$$$$$$$\ $$$$$$$\  
-$$  _____|$$  _____|$$  __$$\ 
-$$ |      $$ |      $$ |  $$ |
-$$$$$\    $$$$$\    $$$$$$$  |
-$$  __|   $$  __|   $$  ____/ 
-$$ |      $$ |      $$ |      
-$$ |      $$$$$$$$\ $$ |      
-\__|      \________|\__|      )"));
+  console.log(colors.yellow("(https://t.me/FarukEarningPoint)"));
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
   if (!hasIDAPI) return console.log(`Could not find API ID, try again later!`.red);
   console.log(`${message}`.yellow);
