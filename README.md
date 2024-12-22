@@ -37,7 +37,6 @@ pkg install git
    ```
 4.**START THE BOT**
 ```bash
-```
 node clayton.js
 ```
 For those using multiple accounts, it's recommended to use a proxy (if using only one account, there's no need to create the proxy.txt file).
