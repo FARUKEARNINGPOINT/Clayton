@@ -614,22 +614,7 @@ async function wait(seconds) {
 }
 
 async function main() {
-  console.log(colors.yellow
- ______ ______ _____  
- |  ____|  ____|  __ \ 
- | |__  | |__  | |__) |
- |  __| |  __| |  ___/ 
- | |    | |____| |     
- |_|    |______|_|
-
-
-HACK NAME: CLAYTON LEGEND
-        
-CREATE BY: FARUK EARNING POINT 
-CONTRACT ON TELEGRAM: @FARUKKING63
-TELEGRAM CHANEL: https://t.me FarukEarningPoint    
-YOUTUBE CHNNEL: @FARUK EARNING POINT
-  
+  console.log(colors.yellow("(https://t.me/FarukEarningPoint)"));
   const { endpoint: hasIDAPI, message } = await checkBaseUrl();
   if (!hasIDAPI) return console.log(`Could not find API ID, try again later!`.red);
   console.log(`${message}`.yellow);
