@@ -615,10 +615,7 @@ async function wait(seconds) {
 
 async function main() {
   console.log(colors.yellow("(https://t.me/FarukEarningPoint)"));
-  const { endpoint: hasIDAPI, message } = await checkBaseUrl();
-  if (!hasIDAPI) return console.log(`Could not find API ID, try again later!`.red);
-  console.log(`${message}`.yellow);
-
+  
   const dataFile = path.join(__dirname, "data.txt");
   const data = fs.readFileSync(dataFile, "utf8").replace(/\r/g, "").split("\n").filter(Boolean);
   const waitTime = settings.TIME_SLEEP * 60 * 60;
